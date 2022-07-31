@@ -43,18 +43,53 @@
 }
 /*******Header********/
 /*******Posts********/
+.div-create-btn{
+    display: inline;
+    margin: 30px 90px;
 
-.all-posts{
+}
+.create-btn{
+    position: absolute;
+    top: 100px;
+    left: 1080px;
+    height: 50px;
+    color: #ffffff;
+    background: #ff2a6b;
+    border: 0px;
+    width: 70px;
+}
+
+.create-img-btn{
+    position: absolute;
+    top: 100px;
+    left: 1170px;
+    height: 50px;
+    color: #ffffff;
+    background: #ffaf00;
+    border: 3px;
+    width: 70px;
+    border-radius: 70px;
+}
+.create-post{
     margin: 30px;
+    width: 1000px;
+    display: inline;
+}
+.all-posts{
+    margin: 20px;
 }
 
-.all-posts .post-content{
-padding: 20px 90px
+
+
+.post-imgs img{
+    width: 100%;
 
 }
 
-.post-content img{
-    width: 250px;
-    height: 250px;
-    justify-content: space-between;
+.post-title a{
+    color: #ff2a6b;
+    text-decoration: none;
+}
+.post-title a:hover{
+    color: #ffb724;
 }
